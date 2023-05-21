@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+* {
+    font-family:'Quattrocento', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background: radial-gradient(circle, rgb(217, 223, 232) 0%, rgba(183,228,244,1) 100%);
+}
+
+.hero {
+    background-color: rgb(21, 17, 45);
+    padding-bottom: 40px;
+}
+
+.header {
+    background-color: rgb(21, 17, 45);
+    color: whitesmoke;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+li {
+    margin: 10px;
+}
+ 
+.about, .products, .contact {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin: 18px;
+}
+
+.intro {
+    align-items: center;
+    background-color: rgb(21, 17, 45);
+    color: whitesmoke;
+    
+}
+
+.announcement {
+    font-size: 1.25rem;
+    margin: 10px;
+    padding: 30px;
+}
+
+.main-img {
+    height: auto;
+    float: right;
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.subscribe {
+    display: inline-block;
+    margin: 30px;
+    padding: 8px;
+    font-size: .85rem;
+    border-radius: 9px;
+    border:none;
+    background: rgb(232,231,244);
+    background: radial-gradient(circle, rgba(232,231,244,1) 0%, rgba(216,246,249,1) 100%);
+    
+}
+
+.subscribe:hover{
+    background: rgb(224, 175, 192);
+    border:rgb(21, 17, 45) 2px solid;
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top:10px;
+}
+
+.showcase {
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.img0-descript, .img1-descript, .img2-descript, .img3-descript {
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 1.35rem;
+
+}
+
+.img0, .img1, .img2, .img3{
+    width: 275px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+img {
+    border-radius: 7px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.75rem;
+    background: rgb(6,72,115);
+    background: linear-gradient(0deg, rgb(207, 227, 240) 0%, rgba(171,188,200,1) 100%);
+    padding: 40px;
+}
+
+.action {
+    padding: 10px;
+}
+
+.bottom-container {
+    /* border: 4px solid darkblue;
+    border-radius: 10px; */
+    margin: 100px;
+}
+
+.join {
+    text-align: center;
+    margin-top:40px;
+    font-size: 1.3rem;
+}
+
+.follow {
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.insta, .facebook {
+    padding: 12px;
+}
+
+footer {
+    text-align: center;
+}
